@@ -1,7 +1,7 @@
-const saat1 = document.getElementById('hours');
-const dakika1 = document.getElementById('minutes');
-const saniye1 = document.getElementById('seconds');
-const gun1 = document.getElementById('days');
+const hoursEl = document.getElementById('hours');
+const minutesEl = document.getElementById('minutes');
+const secondsEl = document.getElementById('seconds');
+const daysEl = document.getElementById('days');
 
 const newYear = '31 Dec 2021';
 
@@ -9,18 +9,18 @@ function countDown(){
     const yeniyil = new Date(newYear);
     const suan = new Date();
 
-    const totaldakika = new Date(yeniyil - suan) / 1000;
+    const totalminute = new Date(yeniyil - suan) / 1000;
 
-    const gün = Math.floor(totaldakika / 3600 / 24 );
-    const saat = Math.floor(totaldakika / 3600) %24 ;
-    const dakika = Math.floor(totaldakika /60) %60;
-    const saniye = Math.floor(totaldakika) % 60;
+    const days = Math.floor(totalminute / 3600 / 24 );
+    const hours = Math.floor(totalminute / 3600) %24 ;
+    const minutes = Math.floor(totalminute /60) %60;
+    const seconds = Math.floor(totalminute) % 60;
     
-    saat1.innerHTML = saat;
-    dakika1.innerHTML = dakika;
-    saniye1.innerHTML = saniye;
-    gun1.innerHTML = gün;
-    console.log(totaldakika);
+    hoursEl.innerHTML = hours;
+    minutesEl.innerHTML = minutes;
+    secondsEl.innerHTML = seconds;
+    daysEl.innerHTML = days;
+    console.log(totalminute);
     
 }
 countDown();

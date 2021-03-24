@@ -23,16 +23,14 @@ body{
     font-weight: normal;
 }
 .text-side h1{
-
     text-align: center;
 }
 .foot-text-side{
-justify-content: center;
-align-items: center;
-font-size: 1.5rem;
-font-weight: normal;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: normal;
 }
-
 .maindiv{
     display: flex;
 }
@@ -42,13 +40,11 @@ font-weight: normal;
 .maindiv div span{
     text-align: center;
     font-size: 2rem;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 .maindiv div p{
     font-weight: bold;
     font-size: 6rem;
     line-height: 1; 
-    margin: 0 2rem;
-    
+    margin: 0 2rem; 
 }
