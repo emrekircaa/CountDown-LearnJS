@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+body{
+    background-image: url(pexels-jonas-von-werne-2893330.jpg);
+    background-position: center center;
+    background-size: cover ;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    color: red;
+    text-shadow:4px 2px white ;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+}
+.text-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-weight: normal;
+}
+.text-side h1{
+
+    text-align: center;
+}
+.foot-text-side{
+justify-content: center;
+align-items: center;
+font-size: 1.5rem;
+font-weight: normal;
+}
+
+.maindiv{
+    display: flex;
+}
+.maindiv div{
+    text-align: center;
+}
+.maindiv div span{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.maindiv div p{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1; 
+    margin: 0 2rem;
+    
+}
